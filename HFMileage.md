@@ -12,7 +12,7 @@
 
 ### getMileage [int]
 
-```
+```php
 \skh6075\HFMileage\HFMileage::getMileage ($player);
 ```
 
