@@ -25,3 +25,12 @@
  */
 \skh6075\HFNeogulShop\HFNeogulShop::isShopItemData ($item);
 ```
+
+### addShopItemData [void]
+
+```php
+/**
+ * @param Item|string $item
+ */
+\skh6075\HFNeogulShop\HFNeogulShop::addShopItemData ($item, int $buyPrice = -1, int $sellPrice = -1);
+```
