@@ -15,3 +15,13 @@
 ```php
 \skh6075\HFNeogulShop\HFNeogulShop::deleteShopData (string $name);
 ```
+
+### isShopItemData [bool]
+
+```php
+/**
+ * @param Item|string $item
+ * @return bool
+ */
+\skh6075\HFNeogulShop\HFNeogulShop::isShopItemData ($item);
+```
