@@ -19,18 +19,41 @@
 ### isShopItemData [bool]
 
 ```php
-/**
- * @param Item|string $item
- * @return bool
- */
 \skh6075\HFNeogulShop\HFNeogulShop::isShopItemData ($item);
 ```
 
 ### addShopItemData [void]
 
 ```php
-/**
- * @param Item|string $item
- */
 \skh6075\HFNeogulShop\HFNeogulShop::addShopItemData ($item, int $buyPrice = -1, int $sellPrice = -1);
+```
+
+### setItemPrice [void]
+
+```php
+\skh6075\HFNeogulShop\HFNeogulShop::setItemPrice ($item, int $buyPrice = -1, int $sellPrice = -1);
+```
+
+### getItemBuyPrice [int]
+
+```php
+\skh6075\HFNeogulShop\HFNeogulShop::getItemBuyPrice ($item);
+```
+
+### setItemBuyPrice [void]
+
+```php
+\skh6075\HFNeogulShop\HFNeogulShop::setItemByPrice ($item, int $buyPrice = -1);
+```
+
+### getItemSellPrice [int]
+
+```php
+\skh6075\HFNeogulShop\HFNeogulShop::getItemSellPrice ($item);
+```
+
+### setItemSellPrice [int]
+
+```php
+\skh6075\HFNeogulShop\HFNeogulShop::setItemSellPrice ($item, int $sellPrice = -1);
 ```
