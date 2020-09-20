@@ -4,6 +4,18 @@
 \skh6075\SmartWarp\SmartWarp::getInstance ()->getWarp (string $name);
 ```
 
+### addWarp [void]
+
+```php
+\skh6075\SmartWarp\SmartWarp::getInstance ()->addWarp (string $name, Position $pos);
+```
+
+### deleteWarp [void]
+
+```php
+\skh6075\SmartWarp\SmartWarp::getInstance ()->deleteWarp (string $name);
+```
+
 ### getWarpInFunctions
 
 ```php
