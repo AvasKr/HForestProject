@@ -51,3 +51,6 @@ $warp->getOption ();
 ```php
 $warp->setOption (string $option, array $value = []);
 ```
+
+
+#### Warp is CustomSettibng True boolean Type.
